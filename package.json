@@ -11,11 +11,14 @@
     "lint:ts": "eslint . --max-warnings 0 --ext .ts,.tsx --fix"
   },
   "dependencies": {
+    "@ant-design/v5-patch-for-react-19": "^1.0.3",
     "@dr.pogodin/babel-plugin-react-css-modules": "^6.13.6",
     "@types/react-css-modules": "^4.6.8",
+    "antd": "^5.25.4",
     "normalize.css": "^8.0.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",

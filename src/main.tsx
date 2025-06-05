@@ -5,9 +5,13 @@ import '@ant-design/v5-patch-for-react-19';
 import 'normalize.css';
 import './styles/index.less';
 import App from './App.tsx';
+import { Provider } from 'react-redux';
+import { store } from './store';
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+  <Provider store={store}>
+    <StrictMode>
+      <App />
+    </StrictMode>
+  </Provider>,
 );
